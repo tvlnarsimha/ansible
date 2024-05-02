@@ -1,7 +1,7 @@
 - name: variables
   hosts: localhost
   vars: #variable declaration 
-    course: "munna"
+    course: "Ansible"
     Tainer: "kalla"
     Duration: "120 hrs"
   tasks:

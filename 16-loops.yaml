@@ -5,7 +5,7 @@
   - name: install packages
     ansible.builtin.dnf:
       name: "{{ item }}"
-      state:
+      state: latest
     loop:
     - mysql
     - nginx

@@ -4,9 +4,9 @@
   tasks:
   - name: install packages
     ansible.builtin.dnf:
-    name: "{{ item }}"
-    state:
-  loop:
-  - mysql
-  - nginx
-  - postfix
+      name: "{{ item }}"
+      state:
+    loop:
+    - mysql
+    - nginx
+    - postfix

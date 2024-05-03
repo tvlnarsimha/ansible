@@ -1,7 +1,7 @@
 - name: check number
   hosts: localhost
   vars_prompt:
-  - name: numner
+  - name: number
     prompt: please enter the number
     private: no
   tasks:
